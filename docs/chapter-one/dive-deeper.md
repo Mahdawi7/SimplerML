@@ -142,9 +142,7 @@ Let’s zoom in and look again at our data. I picked two records:
 
 The hour of the day ranges **from 0 to 23**, while content length can range **from 50 to 1000** or more. The Engagement Score can also **range from 0 to 100.**
 
-So, we noticed that we have very different scales for each condition.
-
-So we notice that we have very different scales for each condition.
+We notice that we have very different scales for each condition.
 
 These different ranges and scales can directly affect the weight calculation process simply because** the machine learning program might incorrectly assume that the condition with a larger range (like the content length) is more important! **
 
